@@ -6,6 +6,25 @@ Code for the Advanced Android Kotlin Testing Codelab 5.1-5.3
 Introduction
 ------------
 
+Firstly it was this codelab series with ServiceLocator without DI(Hilt)
+So firest i changed almost everything that found confusing, then continued codelabs after codelabs.
+I was trying to write tests only looking at tests names and tried to understand the code
+After some time it just became my playground where i test all new stuff that i learned 
+
+Here will be some remarks
+(Never use fragment factory, DataBinding can be easily replaced just with viewBinding idk about JetPackCompose yet,
+Custom views is difficult to test, Migration to coroutine 1.6 was exciting,
+@Binds > @Provides but more difficult to use,
+private val viewModel: ItemsViewModel by viewModels() with hilt is OP because 
+most parameters saved from previous fragment you could access through SavedStateHandle,
+Robolectric is ABOMINATION but i lack of understanding of android not to use it,
+Instead of TDD i can just write my code in a way that always be testable to avoid problems,
+i wanna learn ktor, continue to code)
+By far it's the most important remarks after a long month
+
+
+
+
 TO-DO Notes is an app where you to write down tasks to complete. The app displays them in a list.
 You can then mark them as completed or not, filter them and delete them.
 
